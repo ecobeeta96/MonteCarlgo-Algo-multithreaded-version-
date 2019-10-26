@@ -13,3 +13,6 @@ As a general rule, the greater the number of points, the closer the approximatio
 
 This program protects against race conditions on updates to the shared global variables
 by using mutex locks.
+
+****** To compile the multithreaded codes  use the following command:- 
+gcc -o <outputName> monteCarlAlgo.c -lpthread
